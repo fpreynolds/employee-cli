@@ -1,0 +1,30 @@
+{
+  "name": "employee-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js",
+    "reset": "node reset.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fpreynolds/employee-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fpreynolds/employee-cli/issues"
+  },
+  "homepage": "https://github.com/fpreynolds/employee-cli#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^28.1.3"
+  }
+}
